@@ -1,3 +1,4 @@
+import {useState} from 'react'
 import './App.css'
 import {Routes, Route} from 'react-router-dom'
 import Listagem from './pages/Listagem';
@@ -9,7 +10,7 @@ const App = () => {
 
   return (
     <Routes>
-      <Routes path="/" element={<Listagem />} />
+      <Routes path="/" element={<Listagem />}/>
     </Routes>
   )
 }
